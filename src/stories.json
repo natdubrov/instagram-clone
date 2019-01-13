@@ -1,0 +1,33 @@
+stories = [{    
+    "p1foto1":"./images/noe.jpg",
+    "p1nam":"neninuff",
+    "p1hour":"1 HOUR AGO"
+},{
+    "p1foto1":"./images/nathalie.jpg",
+    "p1nam":"nathalie_furtado",
+    "p1hour":"1 HOUR AGO"
+},{  
+    "p1foto1":"./images/Marluce.jpg",
+    "p1nam":"marluce",
+    "p1hour":"5 HOURS AGO"
+},{ 
+    "p1foto1":"./images/visit.jpg",
+    "p1nam":"visitportugal",
+    "p1hour":"3 HOURS AGO"
+},{ 
+    "p1foto1":"./images/brunocaverna.jpg",
+    "p1nam":"bruno_caverna",
+    "p1hour":"2 HOURS AGO"
+},{ 
+    "p1foto1":"./images/elad.jpg",
+    "p1nam":"elad_tlv",
+    "p1hour":"1 HOURS AGO"
+},{ 
+    "p1foto1":"./images/larissa.jpg",
+    "p1nam":"larissacarreira",
+    "p1hour":"4 HOURS AGO"
+},{ 
+    "p1foto1":"./images/diamanthe.jpg",
+    "p1nam":"diamanthe",
+    "p1hour":"2 HOURS AGO"
+}]

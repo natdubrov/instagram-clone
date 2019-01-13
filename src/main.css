@@ -1,0 +1,443 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: white;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.logo1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  
+}
+
+.instagram {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-width: 2px;
+  border-left-style: solid;
+  padding: 0px 10px;
+}
+
+.button {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 90px;
+  border: solid rgb(214, 210, 210);
+  border-radius: 3px;
+  border-width: thin;
+}
+
+.lupeicon {
+  background-color: whitesmoke;
+  padding: 2px 6px 0px 0px ;
+}
+
+.search {
+  background-color: whitesmoke;
+  font-size: 15px;
+  color: gray;
+}
+
+.icons {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.compass {
+  background-color:white;
+  padding: 0px 10px;
+}
+
+.heart{
+  background-color:white;
+  padding: 0px 10px;
+}
+
+.person {
+  background-color:white;
+  padding: 0px 10px;
+}
+
+.content{
+  background-color: whitesmoke;
+  flex: 10;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 200px 0px 200px;
+}
+
+.post-container {
+  flex: 2;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.post{
+  margin: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(223, 220, 220);
+  border-radius: 1%;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainname {
+  background-color: white;
+  padding: 10px;
+  flex:1;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainpic {
+  width: 100%;
+  height: 100%;
+}
+
+.proffoto {
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:50%;
+}
+
+.foto {
+  border-radius: 60%;
+  display: flex;
+}
+
+.profname {
+  background-color: white;
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameprof {
+   background-color: white;
+   flex:1;
+   display: flex;
+   align-items: flex-end;
+   font-size: 16px;
+}
+
+.location {
+   background-color: white;
+   flex:1;
+   font-size: 14px;
+   display:flex;
+   align-items: center;
+}
+
+.mainfoto {
+  background-color: whitesmoke;
+  flex: 12;
+  display: flex;
+}
+
+.people {
+   background-color: whitesmoke;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   padding: 0px 15px;
+} 
+
+.myprofile {
+   background-color: whitesmoke;
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.people2{
+  flex: 2;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(223, 220, 220);
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column; 
+}
+
+.storybox{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  flex: 1;
+}
+
+.story-container {
+  overflow: scroll;
+  overflow-x: hidden;
+  flex:10;
+}
+
+.story {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.p1foto {
+  border: 3px solid rgba(204, 56, 204, 0.918); 
+  background-color: white;
+  padding: 1px;
+  display: flex;
+  border-radius:50%;
+}
+
+.p1name {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.people3{
+  flex:2;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(223, 220, 220);
+  border-radius: 1%;
+}
+
+.people4{
+  flex:1;
+  background-color: whitesmoke;
+}
+
+.myfoto1 {
+   border-radius: 50%;
+}
+
+.myname {
+  padding: 0px 10px;
+}
+
+.myname1{
+  background-color: whitesmoke;
+  font-size: 16px;
+}
+
+.myname2 {
+  background-color: whitesmoke;
+  font-size: 14px;
+  color: gray;
+}
+
+.stories {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex: 3;
+}
+
+.stories1 {
+   font-size: 16px;
+   color:gray;
+   display:flex;
+}
+
+.watchall {
+  font-size: 14px;
+  display:flex;
+}
+
+
+
+.p1foto1 {
+  border-radius: 60%;
+  flex: 1;
+}
+
+
+
+.p1nam {
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+.p1hour {
+  font-size: 14px;
+  color: gray;
+}
+
+
+.suggestions {
+  padding: 10px;
+  border-style: solid;
+  color: gray;
+  border-width: thin;
+  border-radius: 5px;
+}
+
+.suggestion {
+   background-color: white;
+   flex: 3;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-size: 16px;
+   padding: 10px;
+}
+
+.suggestforyou {
+   color: gray;
+}
+
+.seeall {
+  font-size: 14px;
+  display:flex;
+  align-items: center;
+}
+
+.sug1 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 10px 10px 5px;
+}
+
+.sufoto1{
+  border-radius: 60%;
+  flex: 1;
+}
+
+.sugnew1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.new1{
+  color:gray;
+}
+
+.sug1follow {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color:#3898F2;
+  font-size: 14px;
+}
+
+.sug2 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 10px 10px 5px;
+}
+
+.sufoto2{
+  border-radius: 60%;
+  flex: 1;
+}
+
+.sugnew2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.new2{
+  color:gray;
+}
+
+.sug2follow {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #3898F2;
+  font-size: 14px;
+}
+
+.sug3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 10px 10px 5px;
+}
+
+.sufoto3{
+  border-radius: 60%;
+  flex: 1;
+}
+
+.sugnew3 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.new3{
+  color:gray;
+}
+
+.sug3follow {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: #3898F2;
+  font-size: 14px;
+}
+
+
+.aboutus {
+  color: gray;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  padding: 20px 0px;
+}
+
+.copyright {
+  color:gray;
+  font-size: 12px;
+  display:flex;
+}

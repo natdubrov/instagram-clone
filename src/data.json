@@ -1,0 +1,26 @@
+data = [{
+    "proffoto":"./images/arturolopezillana.jpg",
+    "mainfoto":"./images/mainphoto.jpg",
+    "nameprof":"arturolopezillana",
+    "location":"Africa",
+    "alt":"arturolopezillana"
+},{
+    "proffoto":"./images/BW.jpg",
+    "mainfoto":"./images/BW.jpg",
+    "nameprof":"bw_shots",
+    "location":"Egypt",
+    "alt":"BW"
+},{
+    "proffoto":"./images/Ana.jpg",
+    "mainfoto":"./images/Ana.jpg",
+    "nameprof":"ana_ginger",
+    "location":"Brazil",
+    "alt":"Anaginger"
+},{
+    "proffoto":"./images/Rakesh.jpg",
+    "mainfoto":"./images/Rakesh.jpg",
+    "nameprof":"Rakesh",
+    "location":"India",
+    "alt":"rakesh"
+}]
+
